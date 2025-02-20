@@ -14,3 +14,9 @@ export interface ProjectData {
   deployUrl: string;
   githubUrl: string;
 }
+
+export interface ProjectProps {
+  text: string;
+  imageLink: string;
+  onClick: () => void;
+}

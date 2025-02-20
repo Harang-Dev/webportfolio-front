@@ -1,10 +1,19 @@
 "use client";
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useQuery } from '@tanstack/react-query';
 import { postDetail } from '@/app/utlis/api';
 import '../../styles/globals.css';
 
 export default function Page() {
+    return (
+        <Suspense fallback={<div>Loading...</div>}>
+            <SearchParamsComponent />
+        </Suspense>
+    );
+}
+
+function SearchParamsComponent() {
     const searchParams = useSearchParams();
     const id = searchParams.get("id");
 

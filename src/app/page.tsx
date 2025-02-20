@@ -1,11 +1,11 @@
 "use client"
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import './styles/globals.css';
 
 export default function Page() {
-  const words = ['Developer', 'Solver', 'Coder'];
+  const words = useMemo(() => ['Developer', 'Solver', 'Coder'], []);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [currentText, setCurrentText] = useState('');
   const [isTyping, setIsTyping] = useState(false);
