@@ -46,12 +46,12 @@ export default function Page() {
 
   return (
     <div className="flex flex-col justify-center items-start gap-10 w-full h-full">
-      <div className="sm:text-4xl md:text-4xl lg:text-7xl font-bold">
+      <div className="sm:text-4xl md:text-4xl lg:text-7xl font-bold text-white">
         SEO HYUNWOO
       </div>
       <div className="w-1/5 border-t-4 border-white" />
       <div className='sm:text-2xl md:text-3xl lg:text-3xl'>
-        <span className='mr-4'>Creative</span>
+        <span className='mr-4 text-white'>Creative</span>
         <span className='font-bold text-white text-opacity-80'>{currentText}</span>
       </div>
       <button onClick={handleGoProject} className="w-1/5 border border-white bg-white text-black px-4 py-2 mt-6">Go Project</button>
