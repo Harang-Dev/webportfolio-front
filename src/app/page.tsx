@@ -26,7 +26,7 @@ export default function Page() {
     }, 2000);
     
     return () => clearInterval(wordChangeInterval);
-  }, [isTyping]);
+  }, [isTyping, words.length]);
 
   useEffect(() => {
     const typingInterval = setInterval(() => {
@@ -42,7 +42,7 @@ export default function Page() {
     }, 150);
 
     return () => clearInterval(typingInterval);
-  }, [currentWordIndex]);
+  }, [currentWordIndex, words]);
 
   return (
     <div className="flex flex-col justify-center items-start gap-10 w-full h-full">

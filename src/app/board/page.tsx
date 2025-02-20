@@ -5,6 +5,7 @@ import { useQuery } from '@tanstack/react-query';
 import PostItem from '../components/PostItem';
 import { postAll } from '../utlis/api';
 import '../styles/globals.css';
+import { PostData } from '../types';
 
 export default function Page() {
   const [page, setPage] = useState(1);
@@ -71,8 +72,12 @@ export default function Page() {
           </button>
         </div>
         <div className='mt-[3vh]'>
-          {data && data.data.map((post: any) => (
-            <div className='w-full' key={post.id} onClick={() => handlePostClick({ id: post.id })}>
+          {data && data.data.map((post: PostData) => (
+            <div 
+            className='w-full' 
+            key={post.id}
+            onClick={() => post.id && handlePostClick({ id: post.id })}
+          >
               <PostItem
                 title={post.title}
                 writer={post.writer}

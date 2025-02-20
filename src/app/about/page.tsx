@@ -1,3 +1,4 @@
+import Image from 'next/image';  // Image 컴포넌트 import 추가
 import TextWithLine from '../components/TextWithLine';
 import '../styles/globals.css';
 
@@ -23,21 +24,21 @@ export default function Page() {
         <li className="mb-4">Front-End</li>
         <div className="grid grid-cols-3 gap-4 mb-4">
           <div className="flex flex-col items-center">
-            <img src="/images/html.png" alt="HTML" className="w-16 h-16 mb-2" />
+            <Image src="/images/html.png" alt="HTML" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <img src="/images/css.png" alt="CSS" className="w-16 h-16 mb-2" />
+            <Image src="/images/css.png" alt="CSS" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <img src="/images/js.png" alt="JS" className="w-16 h-16 mb-2" />
+            <Image src="/images/js.png" alt="JS" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
@@ -46,21 +47,21 @@ export default function Page() {
 
         <div className="grid grid-cols-3 gap-4 mb-4">
           <div className="flex flex-col items-center">
-            <img src="/images/ts.png" alt="TS" className="w-16 h-16 mb-2" />
+            <Image src="/images/ts.png" alt="TS" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '60%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <img src="/images/sc.png" alt="Styled-Components" className="w-16 h-16 mb-2" />
+            <Image src="/images/sc.png" alt="Styled-Components" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '90%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <img src="/images/antd.png" alt="Antd" className="w-16 h-16 mb-2" />
+            <Image src="/images/antd.png" alt="Antd" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
@@ -69,14 +70,14 @@ export default function Page() {
 
         <div className="grid grid-cols-3 gap-4 mb-4">
           <div className="flex flex-col items-center">
-            <img src="/images/react.png" alt="REACT" className="w-16 h-16 mb-2" />
+            <Image src="/images/react.png" alt="REACT" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <img src="/images/next.jpeg" alt="NEXTJS" className="w-16 h-16 mb-2" />
+            <Image src="/images/next.jpeg" alt="NEXTJS" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '60%', transition: 'width 0.5s' }}></div>
             </div>
@@ -86,7 +87,7 @@ export default function Page() {
         <li className="mb-4">Design</li>
         <div className="grid grid-cols-3 gap-4 mb-4">
           <div className="flex flex-col items-center">
-            <img src="/images/figma.png" alt="FIGMA" className="w-16 h-16 mb-2" />
+            <Image src="/images/figma.png" alt="FIGMA" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
@@ -96,21 +97,21 @@ export default function Page() {
         <li className="mb-4">Collaboration Tools</li>
         <div className="grid grid-cols-3 gap-4 mb-4">
           <div className="flex flex-col items-center">
-            <img src="/images/github.png" alt="GITHUB" className="w-16 h-16 mb-2" />
+            <Image src="/images/github.png" alt="GITHUB" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <img src="/images/notion.png" alt="NOTION" className="w-16 h-16 mb-2" />
+            <Image src="/images/notion.png" alt="NOTION" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '90%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <img src="/images/slack.png" alt="SLACK" className="w-16 h-16 mb-2" />
+            <Image src="/images/slack.png" alt="SLACK" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '90%', transition: 'width 0.5s' }}></div>
             </div>

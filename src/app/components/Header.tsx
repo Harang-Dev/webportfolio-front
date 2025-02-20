@@ -6,7 +6,7 @@ export default function Header() {
     <header className="bg-[#373737] text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-xl font-bold">
-          <Link href="/">HW's Portfolio</Link>
+          <Link href="/">HW&apos;s Portfolio</Link>
         </div>
 
         {/* 네비게이션 */}

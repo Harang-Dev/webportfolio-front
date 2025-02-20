@@ -13,7 +13,7 @@ export const postAll = async (page: number, limit: number) => {
   };
 
 // id로 상세 게시글 조회
-export const postDetail = async (id: any) => {
+export const postDetail = async (id: string) => {
     const response = await axios.get(`${API}/post-detail/${id}`);
     console.log(response.data);
     return (response.data);

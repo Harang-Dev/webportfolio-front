@@ -601,9 +601,6 @@ video {
 .grid {
   display: grid;
 }
-.h-16 {
-  height: 4rem;
-}
 .h-2 {
   height: 0.5rem;
 }

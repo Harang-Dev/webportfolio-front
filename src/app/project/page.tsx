@@ -5,16 +5,7 @@ import TextWithLine from '../components/TextWithLine';
 import Projects from '../components/Projects';
 import Modal from '../components/Modal';
 import '../styles/globals.css';
-
-interface ProjectData {
-  text: string;
-  imageLink: string;
-  description: string;
-  developmentPeriod: string;
-  teamMembers: string;
-  deployUrl: string;
-  githubUrl: string;
-}
+import { ProjectData } from '../types';
 
 export default function Page() {
   const [selectedProject, setSelectedProject] = useState<ProjectData | null>(null);

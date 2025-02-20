@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Github, Instagram, Rss, Contact } from 'lucide-react';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Image from 'next/image';
 
 const queryClient = new QueryClient();
 
@@ -24,10 +25,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         >
           <div className="flex">
             <section style={{ width: '43%' }} className="h-80vh mr-20">
-              <img
+              <Image
                 src="/images/sakura.jpeg"
                 className="w-full h-full object-cover"
                 alt="sakura"
+                width={1200}
+                height={1600}
               />
             </section>
             <section style={{ width: '57%' }} className="w-3/5 h-80vh">
