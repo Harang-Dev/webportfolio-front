@@ -10,7 +10,7 @@ export default function Page() {
 
     const { data, isLoading, error } = useQuery({
         queryKey: ['게시글 정보', id],
-        queryFn: () => postDetail(id)
+        queryFn: () => postDetail(id as string),
     });
 
     const handleGoBack = (): void => {
