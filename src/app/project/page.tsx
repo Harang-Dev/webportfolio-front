@@ -17,7 +17,7 @@ export default function Page() {
       description: 'Next.js와 TypeScript를 학습하고 실습해서 만든 웹 포트폴리오입니다.',
       developmentPeriod: '2025.02 ~ 2025.02',
       teamMembers: '1명 (개인 프로젝트)',
-      deployUrl: '배포예정',
+      deployUrl: 'https://port-next-webportfolio-front-m61t9knhb5c1f236.sel4.cloudtype.app/',
       githubUrl: 'https://github.com/Harang-Dev/webportfolio',
     },
     {

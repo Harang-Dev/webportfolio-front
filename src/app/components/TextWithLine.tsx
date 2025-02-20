@@ -5,7 +5,7 @@ interface TextWithLineProps {
   export default function TextWithLine({ text }: TextWithLineProps) {
     return (
       <div className="flex items-center">
-        <span className="text-lg font-bold mr-4">{text}</span>
+        <span className="text-lg font-bold mr-4 text-white">{text}</span>
         <div className="flex-grow border-t-2 border-white" />
       </div>
     );

@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta charSet="UTF-8" />
         <title>My Website</title>
       </head>
-      <body className="flex flex-col h-full">
+      <body className="flex flex-col h-full text-white">
         <Header />
         <main
           style={{ height: '80vh' }}
