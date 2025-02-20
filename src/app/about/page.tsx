@@ -24,21 +24,21 @@ export default function Page() {
         <li className="mb-4">Front-End</li>
         <div className="grid grid-cols-3 gap-4 mb-4">
           <div className="flex flex-col items-center">
-            <Image src="/images/html.png" alt="HTML" width={64} height={64} className="mb-2" />
+            <Image src="/images/html.webp" alt="HTML" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <Image src="/images/css.png" alt="CSS" width={64} height={64} className="mb-2" />
+            <Image src="/images/css.webp" alt="CSS" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <Image src="/images/js.png" alt="JS" width={64} height={64} className="mb-2" />
+            <Image src="/images/js.webp" alt="JS" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
@@ -47,21 +47,21 @@ export default function Page() {
 
         <div className="grid grid-cols-3 gap-4 mb-4">
           <div className="flex flex-col items-center">
-            <Image src="/images/ts.png" alt="TS" width={64} height={64} className="mb-2" />
+            <Image src="/images/ts.webp" alt="TS" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '60%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <Image src="/images/sc.png" alt="Styled-Components" width={64} height={64} className="mb-2" />
+            <Image src="/images/sc.webp" alt="Styled-Components" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '90%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <Image src="/images/antd.png" alt="Antd" width={64} height={64} className="mb-2" />
+            <Image src="/images/antd.webp" alt="Antd" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
@@ -70,14 +70,14 @@ export default function Page() {
 
         <div className="grid grid-cols-3 gap-4 mb-4">
           <div className="flex flex-col items-center">
-            <Image src="/images/react.png" alt="REACT" width={64} height={64} className="mb-2" />
+            <Image src="/images/react.webp" alt="REACT" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <Image src="/images/next.jpeg" alt="NEXTJS" width={64} height={64} className="mb-2" />
+            <Image src="/images/next.webp" alt="NEXTJS" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '60%', transition: 'width 0.5s' }}></div>
             </div>
@@ -87,7 +87,7 @@ export default function Page() {
         <li className="mb-4">Design</li>
         <div className="grid grid-cols-3 gap-4 mb-4">
           <div className="flex flex-col items-center">
-            <Image src="/images/figma.png" alt="FIGMA" width={64} height={64} className="mb-2" />
+            <Image src="/images/figma.webp" alt="FIGMA" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
@@ -97,21 +97,21 @@ export default function Page() {
         <li className="mb-4">Collaboration Tools</li>
         <div className="grid grid-cols-3 gap-4 mb-4">
           <div className="flex flex-col items-center">
-            <Image src="/images/github.png" alt="GITHUB" width={64} height={64} className="mb-2" />
+            <Image src="/images/github.webp" alt="GITHUB" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '80%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <Image src="/images/notion.png" alt="NOTION" width={64} height={64} className="mb-2" />
+            <Image src="/images/notion.webp" alt="NOTION" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '90%', transition: 'width 0.5s' }}></div>
             </div>
           </div>
 
           <div className="flex flex-col items-center">
-            <Image src="/images/slack.png" alt="SLACK" width={64} height={64} className="mb-2" />
+            <Image src="/images/slack.webp" alt="SLACK" width={64} height={64} className="mb-2" />
             <div className="w-16 h-2 bg-gray-200 rounded-full mt-1">
               <div className="h-full bg-[#1EE256] rounded-full" style={{ width: '90%', transition: 'width 0.5s' }}></div>
             </div>
