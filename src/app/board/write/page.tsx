@@ -17,7 +17,7 @@ export default function Page() {
 
   const mutation = useMutation({
     mutationFn: (data: PostData) => postWrite(data),
-    onSuccess: (data) => {
+    onSuccess: () => {
       router.push(`/board`);
       
     },
