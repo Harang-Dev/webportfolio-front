@@ -26,11 +26,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="flex">
             <section style={{ width: '43%' }} className="h-80vh mr-20">
               <Image
-                src="/images/sakura.jpeg"
+                src="/images/sakura.webp"
                 className="w-full h-full object-cover"
                 alt="sakura"
                 width={1200}
                 height={1600}
+                priority
+                loading="eager"
               />
             </section>
             <section style={{ width: '57%' }} className="w-3/5 h-80vh">

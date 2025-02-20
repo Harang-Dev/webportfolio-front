@@ -18,7 +18,6 @@ export default function Page() {
   const mutation = useMutation({
     mutationFn: (data: PostData) => postWrite(data),
     onSuccess: (data) => {
-      console.log('게시글 작성 성공:', data);
       router.push(`/board`);
       
     },
@@ -28,7 +27,6 @@ export default function Page() {
   });
 
   const handleButton = (data: PostData) => {
-    console.log(data);
     mutation.mutate(data);
   };
 

@@ -13,7 +13,7 @@ export default function Page() {
   const projectData: ProjectData[] = [
     {
       text: 'WebPortfolio',
-      imageLink: '/images/pf.png',
+      imageLink: '/images/pf.webp',
       description: 'Next.js와 TypeScript를 학습하고 실습해서 만든 웹 포트폴리오입니다.',
       developmentPeriod: '2025.02 ~ 2025.02',
       teamMembers: '1명 (개인 프로젝트)',
@@ -22,7 +22,7 @@ export default function Page() {
     },
     {
       text: 'PokeDict',
-      imageLink: '/images/pokedict.png',
+      imageLink: '/images/pokedict.webp',
       description: '포켓몬 사전 웹 애플리케이션으로, 포켓몬의 다양한 정보를 제공합니다.',
       developmentPeriod: '2025.01 ~ 2025.02',
       teamMembers: '1명 (개인 프로젝트)',
@@ -31,7 +31,7 @@ export default function Page() {
     },
     {
       text: 'MZ 사전',
-      imageLink: '/images/mzdict.png',
+      imageLink: '/images/mzdict.webp',
       description: 'MZ 세대의 용어를 쉽게 찾을 수 있는 사전입니다.',
       developmentPeriod: '2025.01 ~ 2025.01',
       teamMembers: '2명',
@@ -40,7 +40,7 @@ export default function Page() {
     },
     {
       text: 'GUFF',
-      imageLink: '/images/guff.png',
+      imageLink: '/images/guff.webp',
       description: '(주)거명이엔씨의 백오피스 웹 어플리케이션입니다.',
       developmentPeriod: '2024.05 ~ 2024.10',
       teamMembers: '2명',
@@ -49,7 +49,7 @@ export default function Page() {
     },
     {
       text: '절판 서점',
-      imageLink: '/images/bs.png',
+      imageLink: '/images/bfm.webp',
       description: '멀티캠퍼스에서 진행한 구매자 중심의 절판도서 역경매 서비스입니다.',
       developmentPeriod: '2024.03 ~ 2024.04',
       teamMembers: '6명',
