@@ -8,7 +8,6 @@ const Projects = ({ text, imageLink, onClick }: ProjectProps) => {
         src={imageLink}
         alt={text}
         className="object-cover w-full h-full"
-        layout="responsive"
         width={600}
         height={300}
       />
