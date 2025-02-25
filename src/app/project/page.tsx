@@ -18,7 +18,7 @@ export default function Page() {
       developmentPeriod: '2025.02 ~ 2025.02',
       teamMembers: '1명 (개인 프로젝트)',
       deployUrl: 'https://port-next-webportfolio-front-m61t9knhb5c1f236.sel4.cloudtype.app/',
-      githubUrl: 'https://github.com/Harang-Dev/webportfolio',
+      githubUrl: 'https://github.com/Harang-Dev/webportfolio-front',
     },
     {
       text: 'PokeDict',
